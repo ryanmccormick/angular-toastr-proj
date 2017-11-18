@@ -1,18 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
-import { NgToastrComponent } from '../../ng-toastr/ng-toastr.component';
+import { NgToastrModule } from '../../ng-toastr/ng-toastr.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NgToastrComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgToastrModule
   ],
   providers: [],
   bootstrap: [AppComponent]
