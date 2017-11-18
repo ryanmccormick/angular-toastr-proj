@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { NgToastrComponent } from '../../ng-toastr/ng-toastr.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NgToastrComponent
   ],
   imports: [
     BrowserModule
